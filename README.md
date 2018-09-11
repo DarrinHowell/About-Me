@@ -1,2 +1,2 @@
 # About-Me
-Guessing Game To Get to Know Me At a More Personal Level
+Guessing game to learn more about me
