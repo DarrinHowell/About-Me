@@ -12,7 +12,7 @@ var favNBAPLayerAlertIfWrong = 'Ah, sorry. It looks like you don\'t know Darrin 
 // Question 2, plus feedback for correct and incorrect answers
 var favFoodTypeQ = 'Does Darrin enjoy Filipino food more than any other?';
 var favFoodTypeIfCorrect = 'You were right; although he has Filipino ancestry, his favorite'
-                            + ' type of food is Japanese food';
+                            + ' type of food is Japanese food.';
 var favFoodTypeIfWrong = 'Ah, bummer. Although Darrin is part Filipino, Filipino food'
                             + ' is not his number one.';
 
@@ -25,14 +25,19 @@ var favCityQ = 'Is Barcelona Darrin\'s favorite city?';
 var favNBAPlayer = prompt(favNBAPlayerQ);
 if(favNBAPlayer.toLowerCase() === 'y' || favNBAPlayer.toLowerCase() === 'yes' ) {
   alert(favNBAPlayerAlertIfCorrect);
+  console.log(name + 'answered ' + favNBAPlayer);
 } else {
   alert(favNBAPLayerAlertIfWrong);
 }
+console.log(name + 'answered ' + favNBAPlayer+ ' to favNBAPlayer Question');
 
 // Favorite food question
 var favFood = prompt(favFoodTypeQ);
 if(favFood.toLowerCase() === 'y' || favFood.toLowerCase() === 'Y') {
-  alert(favFoodTypeIfCorrect);
-} else {
   alert(favFoodTypeIfWrong);
+} else {
+  alert(favFoodTypeIfCorrect);
 }
+console.log(name + 'answered ' + favFood + ' to favFood Question');
+
+
