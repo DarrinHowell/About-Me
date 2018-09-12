@@ -1,5 +1,6 @@
 body {
     background: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 header {
@@ -25,9 +26,9 @@ footer {
 }
 
 ul {
-    list-style-type:  disc;
-
+    list-style-type:  square;
 }
+
 
 li {
     margin-left: 10;
