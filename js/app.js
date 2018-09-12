@@ -55,7 +55,7 @@ if(favNBAPlayer.toLowerCase() === 'y' || favNBAPlayer.toLowerCase() === 'yes' ) 
 } else {
   alert(favNBAPLayerAlertIfWrong);
 }
-console.log(name + 'answered ' + favNBAPlayer+ ' to favNBAPlayer Question');
+console.log(name + ' answered ' + favNBAPlayer+ ' to favNBAPlayer Question');
 
 
 // food question
@@ -65,7 +65,7 @@ if(favFood.toLowerCase() === 'n' || favFood.toLowerCase() === 'no') {
 } else {
   alert(favFoodTypeIfWrong);
 }
-console.log(name + 'answered ' + favFood + ' to favFood Question');
+console.log(name + ' answered ' + favFood + ' to favFood Question');
 
 
 // city question
@@ -75,7 +75,7 @@ if(favCity.toLowerCase() === 'n' || favCity.toLowerCase() === 'no') {
 } else {
   alert(favCityIfWrong);
 }
-console.log(name + 'answered ' + favCity + ' to favCity Question');
+console.log(name + ' answered ' + favCity + ' to favCity Question');
 
 
 // hip-hop question
@@ -85,7 +85,7 @@ if(favHipHop.toLowerCase() === 'n' || favHipHop.toLowerCase() === 'no') {
 } else {
   alert(favHipHopIfFalse);
 }
-console.log(name + 'answered ' + favHipHop + ' to favHipHop Question');
+console.log(name + ' answered ' + favHipHop + ' to favHipHop Question');
 
 
 // author question
@@ -95,4 +95,4 @@ if(favAuthor.toLowerCase() === 'y' || favAuthor.toLowerCase() === 'yes') {
 } else {
   alert(favAuthorIfWrong);
 }
-console.log(name + 'answered ' + favAuthor + ' to favAuthor Question');
+console.log(name + ' answered ' + favAuthor + ' to favAuthor Question');
