@@ -3,7 +3,7 @@
 
 // Begin web intereaction by asking for name
 var visitorsName = prompt('What is your name?');
-console.log(visitorsName + 'is the user\'s name');
+console.log(visitorsName + ' is the user\'s name');
 
 
 /////////////////////
